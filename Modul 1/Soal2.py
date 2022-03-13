@@ -6,4 +6,4 @@ def gambarPersegiEmpat(t, l):
             print('@' + ' '*(l-2) + '@')
 
 
-print(gambarPersegiEmpat(10, 7))
+print(gambarPersegiEmpat(5, 4))

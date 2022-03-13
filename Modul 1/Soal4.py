@@ -8,4 +8,4 @@ def rerata(c):
     return jumlah/len(c)
 
 
-print(rerata([1, 2, 3, 4, 5, 6, 9]))
+print(rerata([1, 2, 4, 5, 6]))

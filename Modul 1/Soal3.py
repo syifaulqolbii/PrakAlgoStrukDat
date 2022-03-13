@@ -1,7 +1,6 @@
 def jumlahHurufVokal(x):
     vokal = " AIUEOaiueo"
     jumVokal = ""
-
     for character in x:
         if character in vokal:
             jumVokal += character
@@ -14,7 +13,6 @@ print(jumlahHurufVokal('syifaul'))
 def jumlahHurufKonsonan(x):
     vokal = " AIUEOaiueo"
     jumKonsonan = ""
-
     for character in x:
         if character not in vokal:
             jumKonsonan += character
